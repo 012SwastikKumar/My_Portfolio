@@ -56,6 +56,15 @@ html {
 .u-margin-bottom-big {
   margin-bottom: 8rem !important; }
 
+.u-margin-top-med {
+  margin-top: 2rem !important; }
+  @media screen and (max-width: 62.5em) {
+    .u-margin-top-med {
+      margin-top: 1.5rem !important; } }
+  @media screen and (max-width: 39.5em) {
+    .u-margin-top-med {
+      margin-top: 15rem !important; } }
+
 .u-margin-top-medium {
   margin-top: 2rem !important; }
   @media screen and (max-width: 62.5em) {
@@ -123,6 +132,9 @@ html {
   border-radius: 5px;
   box-shadow: 0.1rem 0.12rem rgba(0, 0, 0, 0.5);
   transition: all 0.2s; }
+  @media screen and (max-width: 39.5em) {
+    .btn-secondary--light, .btn-secondary--light:link, .btn-secondary--light:visited {
+      display: inline-block; } }
 
 .btn-secondary--light:active {
   color: #000;
@@ -149,11 +161,10 @@ html {
   font-family: "Noto Sans JP";
   font-weight: 500; }
   .heading-secondary--dark {
-    color: #fdbb04;
-    font-size: 4rem; }
+    color: #fdbb04; }
   @media screen and (max-width: 39.5em) {
     .heading-secondary {
-      font-size: 3rem; } }
+      font-size: 2.5rem; } }
 
 .header {
   position: fixed;
@@ -247,7 +258,7 @@ html {
   @media screen and (max-width: 56.25em) {
     .section_about {
       padding: 0rem;
-      margin: 3rem 0;
+      margin: 2rem 0;
       height: 65rem; } }
   @media screen and (max-width: 39.5em) {
     .section_about {
@@ -323,6 +334,9 @@ html {
       font-weight: 300;
       text-align: center;
       hyphens: auto; }
+      @media screen and (max-width: 56.25em) {
+        .about_card--1_text {
+          margin-bottom: 1rem; } }
   .about_card--2 {
     position: absolute;
     top: 35rem;
@@ -357,6 +371,9 @@ html {
       font-weight: 300;
       text-align: center;
       hyphens: auto; }
+      @media screen and (max-width: 56.25em) {
+        .about_card--2_text {
+          margin-bottom: 1rem; } }
   .about_card--3 {
     position: absolute;
     top: 38rem;
@@ -393,12 +410,15 @@ html {
       font-weight: 300;
       text-align: center;
       hyphens: auto; }
+      @media screen and (max-width: 56.25em) {
+        .about_card--3_text {
+          margin-bottom: 1rem; } }
 
 .section_skill {
   padding: 2rem 7rem 7rem 7rem; }
   @media screen and (max-width: 56.25em) {
     .section_skill {
-      padding: 2rem 4rem 4rem 4rem; } }
+      padding: 4rem 4rem 4rem 4rem; } }
 
 .skill {
   padding: 2rem;

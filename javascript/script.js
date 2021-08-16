@@ -40,7 +40,7 @@ hireBtn.addEventListener('click', () => {
     })
     //section About
 resumrBtn.addEventListener('click', () => {
-    window.open('https://drive.google.com/file/d/1Tqy8_t-oGL17QttY0R6R6Pm4ihQM_-2Y/view?usp=sharing');
+    window.open('https://drive.google.com/file/d/1ru9Hf8eroio2OrCo5Zq02Hn1xpYSN1sY/view?usp=sharing');
 });
 designerBtn.addEventListener('click', () => {
     window.open('https://www.careerexplorer.com/careers/web-designer/');
