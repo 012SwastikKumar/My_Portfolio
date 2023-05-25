@@ -135,7 +135,7 @@ hireBtn.addEventListener("click", () => {
 
 resumrBtn.addEventListener("click", () => {
   window.open(
-    "https://drive.google.com/file/d/1YJcbr3HHzxBrUPSq8Xao3fuw6ZVlJD76/view?usp=sharing"
+    "https://drive.google.com/file/d/1oTcfkNWlKaiTl8YkBZeWQiYIC61s8lRK/view?usp=sharing"
   );
 });
 
