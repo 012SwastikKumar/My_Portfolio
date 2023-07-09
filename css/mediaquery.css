@@ -1,0 +1,301 @@
+/*-----------------------------------*\
+ * #MEDIA QUERIES
+\*-----------------------------------*/
+
+/**
+ * responsive for larger than 550px screen
+ */
+
+@media screen and (max-width: 450px) {
+  .hero {
+    padding: 140px 15px 0px 15px;
+    margin-bottom: 0px;
+  }
+  .hero_left {
+    width: 100%;
+    align-items: center;
+  }
+  .hero_right {
+    width: 90%;
+  }
+  .section-text{
+    padding: 0px 15px 0px 15px;
+  }
+  .project {
+    padding: 2rem 0px 0px 0px;
+  }
+  .major_project_container {
+    padding: 3rem 3px 40px 3px;
+  }
+  .hackathons {
+    padding: 1.2rem;
+  }
+  .copyright {
+    margin-bottom: 15px;
+  }
+  .h3 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 550px) {
+  /**
+     * REUSED STYLE
+     */
+
+  .container {
+    max-width: 550px;
+    margin-inline: auto;
+  }
+
+  .section-title {
+    max-width: 380px;
+  }
+
+  /**
+     * PROJECT
+     */
+}
+
+/**
+   * responsive for larger than 768px screen
+   */
+
+@media (min-width: 768px) {
+  /**
+     * REUSED STYLE
+     */
+
+  .container {
+    max-width: 720px;
+  }
+
+  .section-title {
+    max-width: 430px;
+  }
+
+  /**
+     * STATS
+     */
+
+  .stats-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /**
+     * ABOUT
+     */
+  /**
+     * CONTACT
+     */
+
+  .contact-form {
+    max-width: 450px;
+    margin-inline: auto;
+  }
+}
+
+/**
+   * responsive for larger than 992px screen
+   */
+
+@media (min-width: 992px) {
+  /**
+     * CUSTOM PROPERTY
+     */
+
+  :root {
+    /**
+       * typography
+       */
+
+    --fs-2: 3rem;
+
+    /**
+       * spacing
+       */
+
+    --section-padding: 100px;
+  }
+
+  /**
+     * REUSED STYLE
+     */
+
+  .container {
+    max-width: 980px;
+  }
+
+  .section-content {
+    position: relative;
+    padding-left: 40px;
+  }
+
+  .section-subtitle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(0.75turn) translateX(-100%);
+    transform-origin: left top;
+    margin-bottom: 0;
+  }
+
+  .section-subtitle::after {
+    top: 8px;
+    left: auto;
+    right: calc(100% + 20px);
+  }
+
+  /**
+     * HEADER
+     */
+
+  .header {
+    padding-block: 30px;
+  }
+
+  .header.active {
+    padding-block: 15px;
+  }
+
+  .navbar-actions {
+    order: 1;
+    margin-left: 0;
+  }
+
+  .nav-toggle-btn {
+    display: none;
+  }
+
+  .navbar {
+    all: unset;
+  }
+
+  .navbar-link {
+    transform: translateY(0);
+    font-size: unset;
+    padding-inline: 5px;
+  }
+
+  .navbar-list > li {
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+  }
+
+  .navbar-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .navbar-link::before {
+    height: 2px;
+  }
+
+  /**
+     * HERO
+     */
+
+  .scroll-down {
+    display: block;
+    position: absolute;
+    bottom: 80px;
+    right: -30px;
+    color: var(--color-secondary);
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    transform-origin: top right;
+  }
+
+  .scroll-down::after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    right: -50px;
+    width: 30px;
+    height: 2px;
+    background: var(--color-secondary);
+  }
+
+  /**
+     * STATS
+     */
+
+  /**
+     * ABOUT
+     */
+
+  /**
+     * SKILLS
+     */
+
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .skills-content {
+    margin-bottom: 0;
+  }
+
+  .skills-toggle {
+    margin-inline: 0;
+  }
+
+  /**
+     * PROJECT
+     */
+
+  /**
+     * CONTACT
+     */
+
+  /**
+     * FOOTER
+     */
+
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer .logo {
+    margin-bottom: 0;
+  }
+}
+
+/**
+   * responsive for larger than 1200px screen
+   */
+
+@media (min-width: 1200px) {
+  /**
+     * REUSED STYLE
+     */
+
+  .container {
+    max-width: 1150px;
+  }
+
+  .section-title {
+    max-width: 460px;
+  }
+
+  /**
+     * HERO
+     */
+
+  .scroll-down {
+    right: -80px;
+  }
+
+  /**
+     * ABOUT
+     */
+}
